@@ -7,12 +7,13 @@ Boss::Boss(int id, string name, int did)
 }
 void Boss::showInfo()
 {
-	cout << "Ö°¹¤±àºÅ£º" << this->m_ID
-		<< "\tÖ°¹¤ÐÕÃû£º" << this->m_Name
-		<< "\t¸ÚÎ»£º" << this->getDeptName()
-		<< "\t¸ÚÎ»Ö°Ôð£º·Ö·¢ÈÎÎñ" << endl;
+	
+	cout << "èŒå·¥ç¼–å·ï¼š" << this->m_ID
+		<< "\tèŒå·¥å§“åï¼š" << this->m_Name
+		<< "\tå²—ä½ï¼š" << this->getDeptName()
+		<< "\tå²—ä½èŒè´£ï¼šåˆ†å‘ä»»åŠ¡" << endl;
 }
 string Boss::getDeptName()
 {
-	return string("ÀÏ°å");
+	return string("è€æ¿");
 }
